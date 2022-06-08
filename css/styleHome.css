@@ -63,6 +63,31 @@ header{
     color:#20272F;
 }
 
+
 .curr-page{
     color:#E64E39;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0 15px 0;
+    position: sticky;
+    bottom: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 3px -3px 5px 0px rgba(0,0,0,0.14);
+}
+
+.copyright{
+    padding-right: 700px;
+    font-family: 'Consolas';
+    font-size: 16px;
+}
+
+.sosmed-logos{
+    max-width: 40px;
+    align-self: center;
+    margin-right: 0;
+    margin: 0 10px 0 10px;
 }
