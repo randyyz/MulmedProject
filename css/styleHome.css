@@ -69,7 +69,6 @@ header{
     color:#E64E39;
 }
 
-
 footer{
     display: flex;
     padding: 1rem 1rem 1rem 1rem;
@@ -85,10 +84,19 @@ footer{
 }
 
 .copyright{
+    display: flex;
+    flex-direction: row;
     font-family: 'Consolas';
     font-size: 16px;
-    color: white;
+    color: black;
     padding-right: 10rem;
+    align-items: center;
+}
+
+.heart{
+    max-width: 10px;
+    max-height: 10px;
+    margin: 0 5px 0 5px;
 }
 
 .logos{
