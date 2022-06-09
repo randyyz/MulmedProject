@@ -74,29 +74,31 @@ footer{
     display: flex;
     padding: 1rem 1rem 1rem 1rem;
     justify-content: space-evenly;
-    position: sticky;
+    position: fixed;
     bottom: 0;
-    z-index: 1000;
+    left: 0;
+    width: 100%;
     background-color: #E64E39;
     box-shadow: 3px -3px 5px 0px rgba(0,0,0,0.14);
     flex-direction: row;
-    text-align: left;
-    align-self: center;
+    text-align: center;
 }
 
 .copyright{
     font-family: 'Consolas';
     font-size: 16px;
     color: black;
-    
+    padding-right: 10rem;
 }
 
 .logos{
     display: flex;
     flex-direction: row;
+    padding-left: 10rem;
 }
 
 .sosmed-logos{
     max-width: 40px;
+    max-height: 40px;
     margin: 0 10px 0 10px;
 }
