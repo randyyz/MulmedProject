@@ -132,11 +132,13 @@ header{
     margin: 4rem 0;
     display: grid;
     grid-template-columns: auto auto auto;
-    row-gap: 6vh;
+    row-gap: 5rem;
 }
 
 .card{
     margin: auto;
+    display: flex;
+    align-items: center;
 }
 
 .circle{
