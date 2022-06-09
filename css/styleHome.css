@@ -69,26 +69,34 @@ header{
     color:#E64E39;
 }
 
+
 footer{
     display: flex;
-    justify-content: space-around;
-    padding: 15px 0 15px 0;
+    padding: 1rem 1rem 1rem 1rem;
+    justify-content: space-evenly;
     position: sticky;
     bottom: 0;
     z-index: 1000;
-    background-color: white;
+    background-color: #E64E39;
     box-shadow: 3px -3px 5px 0px rgba(0,0,0,0.14);
+    flex-direction: row;
+    text-align: left;
+    align-self: center;
 }
 
 .copyright{
-    padding-right: 700px;
     font-family: 'Consolas';
     font-size: 16px;
+    color: black;
+    
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
 }
 
 .sosmed-logos{
     max-width: 40px;
-    align-self: center;
-    margin-right: 0;
     margin: 0 10px 0 10px;
 }
