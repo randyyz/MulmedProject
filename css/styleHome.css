@@ -5,6 +5,10 @@
     z-index: 0;
 }
 
+p, a{
+    font-family: 'consolas';
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -26,7 +30,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1000;
-    height: 5rem;
+    height: 3.5rem;
     background-color: white;
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
@@ -39,10 +43,13 @@ header{
 }
 
 .header-logo{
-    max-width: 80px;
     align-self: center;
     /* margin-right: 5rem; */
     position: absolute;
+}
+
+.header-logo img{
+    width: 80px;
 }
 
 .wrapper-navbar-text{
@@ -50,14 +57,18 @@ header{
     /* display: flex; */
     align-self: center;
     justify-content: space-between;
-    font-family: 'Consolas';
-    font-size: 30px;
+    /* font-family: 'Consolas'; */
+    font-size: 24px;
     
 }
 
 .navbar-text{
     text-align: center;
     padding: 0 6rem;
+}
+
+.navbar-text:hover{
+    color: #3083FF;
 }
 
 .body{
@@ -69,26 +80,106 @@ header{
     color:#E64E39;
 }
 
-footer{
+.curr-page:hover{
+    color:#E64E39;
+}
+
+.body{
+    background-color: #20272F;
+}
+
+.body-top{
+    /* width: 1600px; */
+    padding: 3rem 0;
     display: flex;
     justify-content: space-around;
-    padding: 15px 0 15px 0;
-    position: sticky;
-    bottom: 0;
-    z-index: 1000;
+}
+
+.body-top-text{
+    color: white;
+    /* width: 600px; */
+    padding-left: 2rem;
+}
+
+.body-top-title{
+   max-width: 40vw;
+   font-size: 52px;
+}
+
+.body-top-link{
+    padding-top: 2rem;
+    max-width: 15vw;
+    display: flex;
+    justify-content: space-between;
+    color: #E64E39;
+}
+
+.body-link:hover{
+    color:#47FFDA;
+}
+
+.body-partners{
+    padding: 3rem 0;
+}
+
+.body-partners-title{
+    color: #47FFDA;
+    text-align: center;
+    font-size: 52px;
+}
+
+.body-partners-content{
+    margin: 4rem 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 6vh;
+}
+
+.card{
+    margin: auto;
+}
+
+.circle{
+    height: 210px;
+    width: 210px;
     background-color: white;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+
+
+footer{
+    display: flex;
+    padding: 1rem 1rem 1rem 1rem;
+    justify-content: space-evenly;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #E64E39;
     box-shadow: 3px -3px 5px 0px rgba(0,0,0,0.14);
+    flex-direction: row;
+    text-align: center;
 }
 
 .copyright{
-    padding-right: 700px;
+    display: flex;
+    flex-direction: row;
     font-family: 'Consolas';
     font-size: 16px;
+    color: white;
+    padding-right: 10rem;
+    align-items: center;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10rem;
 }
 
 .sosmed-logos{
     max-width: 40px;
-    align-self: center;
-    margin-right: 0;
+    max-height: 40px;
     margin: 0 10px 0 10px;
 }
