@@ -5,6 +5,18 @@
     z-index: 0;
 }
 
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #3083FF;
+}
+
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+
 p, a{
     font-family: 'consolas';
 }
@@ -23,6 +35,8 @@ img{
     max-width: 100%;
 }
 
+/* HEADER */
+
 header{
     display: flex;
     justify-content: space-between;
@@ -30,7 +44,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1000;
-    height: 3.5rem;
+    height: 4rem;
     background-color: white;
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
@@ -49,7 +63,7 @@ header{
 }
 
 .header-logo img{
-    width: 80px;
+    width: 100px;
 }
 
 .wrapper-navbar-text{
@@ -58,8 +72,7 @@ header{
     align-self: center;
     justify-content: space-between;
     /* font-family: 'Consolas'; */
-    font-size: 24px;
-    
+    font-size: 32px;
 }
 
 .navbar-text{
@@ -70,6 +83,8 @@ header{
 .navbar-text:hover{
     color: #3083FF;
 }
+
+/* BODY */
 
 .body{
     color:#20272F;
@@ -86,6 +101,10 @@ header{
 
 .body{
     background-color: #20272F;
+}
+
+.body-image{
+    max-width: 500px;
 }
 
 .body-top{
@@ -108,10 +127,11 @@ header{
 
 .body-top-link{
     padding-top: 2rem;
-    max-width: 15vw;
+    max-width: 22vw;
     display: flex;
     justify-content: space-between;
     color: #E64E39;
+    font-size: 24px;
 }
 
 .body-link:hover{
@@ -122,7 +142,7 @@ header{
     padding: 3rem 0;
 }
 
-.body-partners-title{
+.body-partners-title, .body-testimonial-title{
     color: #47FFDA;
     text-align: center;
     font-size: 52px;
@@ -136,9 +156,15 @@ header{
 }
 
 .card{
+    position: relative;
     margin: auto;
     display: flex;
     align-items: center;
+}
+
+.card img{
+    width: 100%;
+    padding: 1rem;
 }
 
 .circle{
@@ -149,6 +175,55 @@ header{
     /* display: inline-block; */
 }
 
+.card-overlay{
+    position:absolute;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    background-color: #20272F;
+    color: white;
+    /* border-radius: 50%; */
+    /* z-index: -1000; */
+}
+
+.card-overlay p{
+    font-size: 24px;
+    /* margin-top: auto; */
+    text-align: center;
+    /* top: 50%; */
+    margin-top: 43%;
+}
+
+.card:hover .card-overlay{
+    opacity: .8;
+}
+
+.body-testimonial{
+    padding-bottom: 3rem;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.testimonial-button{
+    display: flex;
+    justify-content: right;
+    padding: 2rem 5rem;
+}
+
+.testimonial{
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+    background-color: white;
+    margin: 0 5vw;
+}
+
+.body-testimonial-content{
+    margin: auto;
+}
+
+/* FOOTER */
 
 footer{
     display: flex;
