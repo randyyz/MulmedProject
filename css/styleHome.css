@@ -56,10 +56,16 @@ header{
     align-self: center;
 }
 
-.header-logo{
+.header-logo, .header-audio{
     align-self: center;
     /* margin-right: 5rem; */
     position: absolute;
+}
+
+.header-audio{
+    right: 0;
+    margin: 2rem;
+    font-size: 40px;
 }
 
 .header-logo img{
