@@ -10,3 +10,5 @@ $(document).ready(function(){
         speed: 1100
     });
   });
+
+console.log('Note: koneksi internet dibutuhkan untuk menampilkan carousel dan halaman codeAction dengan baik')

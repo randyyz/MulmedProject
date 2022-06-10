@@ -283,7 +283,7 @@ footer{
     display: flex;
     flex-direction: row;
     font-family: 'Consolas';
-    font-size: 16px;
+    font-size: 20px;
     color: white;
     padding-right: 10rem;
     align-items: center;

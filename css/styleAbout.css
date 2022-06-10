@@ -1,0 +1,61 @@
+.about-body{
+    background-color: #20272F;
+    padding: 6vh 0;
+}
+
+.about-title{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    /* align-self: center; */
+}
+
+.about-bigboi{
+    font-size: 184px;
+    color: #E64E39;
+}
+.about-smolboi{
+    font-size: 64px;
+    align-self: center;
+    color: #47FFDA;
+}
+
+.creator{
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+    background-color: white;
+    margin: 0 2.5vw;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.about-creator{
+    margin: auto;
+    padding: 8vh 0;
+    display: flex;
+    justify-content: center;
+}
+
+.creator-image{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.creator-image img{
+    max-width: 100px;
+}
+
+.creator-name{
+    font-size: 24px;
+    color: #20272F;
+    padding: 4vh 0;
+    height: 4rem;
+}
+
+.creator-nim{
+    font-size: 22px;
+    color: #3083FF;
+    padding: 5vh 0;
+}
