@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | CodeActiO(n)</title>
     <link rel="stylesheet" href="./css/styleHome.css">
+    <link rel="stylesheet" href="./css/styleTutorials.css">
 </head>
 <body>
     
@@ -26,9 +27,129 @@
     </header>
 
     <div class = "content" >
-        
+
+        <div class="video-title">
+                <div class="big-V">
+                    V
+                </div>
+                <div class="-ideos">
+                    ideo
+                </div>
+        </div>
+        <iframe width="1080" height="720" src="https://www.youtube.com/embed/fPAmZSGkPAQ" frameborder="0" allowfullscreen></iframe>
+        </iframe>
+
+        <h3 class="video-desc">
+            Time complexity is the amount of time taken by an algorithm to run, 
+            as a function of the length of the input. It is not going to examine 
+            the total execution time of an algorithm. Rather, it is going to give
+            information about the variation in execution time when the number of 
+            operations increase or decrease in an algorithm. Time complexity measures 
+            the time taken to execute each statement of code in an algorithm. If a 
+            statement is set to execute repeatedly then the number of times that statement 
+            gets executed is equal to N multiplied by the time required to run that function 
+            each time. 
+        </h3>
+        <div class="explanation-example">
+            <div class="explanation">Explanation</div>
+            <div class="and">&</div>
+            <div class="example">Example</div>
+        </div>
+        <div class= "article">
+            <div class="number">
+                1
+            </div>
+            <div class="text">
+                <div class="article-subheading">
+                    O(1) - Constant Time
+                </div>
+                <div class="article-desc">
+                    When an algorithm is not reliant on the input size n, 
+                    it is said to have constant time that was written in 
+                    O(1) notation. The runtime will always be the same, 
+                    regardless of the input size n. For example, printing
+                    array at index x.
+                </div>
+            </div>
+            <img src="./assets/1_constant.png" alt="" class="snippet">
 
 
+        </div>
+        <div class="article">
+            <img src="./assets/2_linear.png" alt="" class="snippet">
+            <div class="text">
+                <div class="article-subheading">
+                    O(n) - Linear Time
+                </div>
+                <div class="article-desc">
+                    When the runtime of an algorithm increases 
+                    linearly with the length of the input, it is said 
+                    to have linear time complexity. When a function checks 
+                    all of the values in input data, it is said to have linear time 
+                    that was written in O(n) notation. For example, looping (repetition).
+                </div>
+            </div>
+            <div class="number">
+                2
+            </div>
+            
+        </div>
+        <div class= "article">
+            <div class="number">
+                3
+            </div>
+            <div class="text">
+                <div class="article-subheading">
+                    O(log n) - Logarithmic Time
+                </div>
+                <div class="article-desc">
+                    An algorithm is said to have a logarithmic time complexity when the running time increases slowly when the input size grows. The time complexity is proportional to the logarithm of input size n. For example, binary search. 
+                </div>
+            </div>
+            <img src="../MulmedProject/assets/3_logarithmic.png" alt="" class="snippet">
+        </div>
+        <div class="article">
+            <img src="./assets/4_quadratic.png" alt="" class="snippet">
+            <div class="text">
+                <div class="article-subheading">
+                    O(n^2) - Quadratic Time
+                </div>
+                <div class="article-desc">
+                    When the execution time of an algorithm increases non-linearly (n^2) with the length of the input, it is said to have a non-linear time complexity. In general, nested loops follow this quadratic time complexity as one loop takes O(n), and if the function includes a loop within a loop, it takes O(n) * O(n) = O(n^2). For example, nested loop.
+                </div>
+            </div>
+            <div class="number">
+                4
+            </div>
+            
+        </div>
+        <div class= "article">
+            <div class="number">
+                5
+            </div>
+            <div class="text">
+                <div class="article-subheading">
+                    O(2^n) - Exponential Time
+                </div>
+                <div class="article-desc">
+                    In exponential time, with each addition to the n input, the growth rate doubles, and the algorithm iterates across all subsets of the input components. The amount of operations done by the time complexity doubles every time an input unit rises by one. For example, recursive Fibonacci.                </div>
+            </div>
+            <img src="./assets/5_exponential.png" alt="" class="snippet">
+        </div>
+        <div class="article">
+            <img src="./assets/4_quadratic.png" alt="" class="snippet">
+            <div class="text">
+                <div class="article-subheading">
+                    O(n!) - Factorial Time
+                </div>
+                <div class="article-desc">
+                    Factorial is the multiplication of all positive integer numbers less than itself. In factorial time, the n input is decreasing in each iteration. Then, each iteration loops as much as itself. Factorial Time grows quickly, thus stay away, if possible, from algorithms that have this time complexity. For example, factorial number of n.                </div>
+            </div>
+            <div class="number">
+                6
+            </div>
+            
+        </div>
 
 
     </div>
