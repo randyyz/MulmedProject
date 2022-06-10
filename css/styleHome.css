@@ -70,6 +70,7 @@ header{
 
 #audio-button{
     color: #E64E39;
+    cursor: pointer;
 }
 
 .header-logo img{
