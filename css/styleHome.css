@@ -44,7 +44,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1000;
-    height: 4rem;
+    height: 4.5rem;
     background-color: white;
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
@@ -63,7 +63,7 @@ header{
 }
 
 .header-logo img{
-    width: 100px;
+    width: 120px;
 }
 
 .wrapper-navbar-text{
@@ -72,7 +72,7 @@ header{
     align-self: center;
     justify-content: space-between;
     /* font-family: 'Consolas'; */
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .navbar-text{
@@ -164,7 +164,7 @@ header{
 
 .card img{
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .circle{
@@ -200,7 +200,7 @@ header{
 }
 
 .body-testimonial{
-    padding-bottom: 3rem;
+    padding-bottom: 7rem;
     max-width: 80vw;
     margin: auto;
 }
@@ -216,12 +216,52 @@ header{
     color: wheat;
     text-align: center;
     background-color: white;
-    margin: 0 5vw;
+    margin: 0 2.5vw;
+    border-radius: 5px;
 }
 
 .body-testimonial-content{
     margin: auto;
 }
+
+.testimonial-image{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-image img{
+    max-width: 100px;
+}
+
+.testimonial-star{
+    padding: 3.5vh 0;
+    font-size: 22px;
+}
+
+.testimonial-comment{
+    font-size: 18px;
+    color: #20272F;
+    padding-bottom: 4vh;
+    height: 4rem;
+}
+
+.testimonial-name{
+    font-size: 16px;
+    color: #3083FF;
+    padding-bottom: 10vh;
+}
+
+.prev, .next{
+    color: white;
+    font-size: 48px;
+    margin: 0 1vw;
+}
+
+.prev:hover, .next:hover{
+    cursor: pointer;
+}
+
 
 /* FOOTER */
 
