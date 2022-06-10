@@ -16,6 +16,7 @@ $(document).ready(function(){
     var isPlaying = false;
     audioButton.loop = true;
     $('.header-audio').click(function(){
+        $('#audio-button').toggleClass('fa-circle-play fa-circle-pause')
         if(isPlaying == false){
             audioButton.volume = 0.07;
             audioButton.play();

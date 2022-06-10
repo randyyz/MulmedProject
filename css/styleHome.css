@@ -68,6 +68,10 @@ header{
     font-size: 40px;
 }
 
+#audio-button{
+    color: #E64E39;
+}
+
 .header-logo img{
     width: 120px;
 }
