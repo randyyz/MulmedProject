@@ -69,8 +69,12 @@ header{
 }
 
 #audio-button{
-    color: #E64E39;
+    color: #20272F;
     cursor: pointer;
+}
+
+#audio-button:hover{
+    opacity: .8;
 }
 
 .header-logo img{
