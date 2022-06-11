@@ -43,13 +43,15 @@ body{
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
-    align-items: center;;
+    align-items: center;
 }
 
 .explanation{
     font-size: 60px;
-    vertical-align: text-top;
+    /* vertical-align: text-top; */
     color: #47FFDA;
+    align-self: flex-start;
+    padding-top: 2rem;
 }
 
 .and{
@@ -59,8 +61,10 @@ body{
 
 .example{
     font-size: 60px;
-    vertical-align: text-bottom;
+    /* vertical-align: text-bottom; */
     color: #47FFDA;
+    align-self: flex-end;
+    padding-bottom: 2.2rem;
 }
 
 .number{
