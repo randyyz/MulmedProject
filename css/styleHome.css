@@ -103,6 +103,7 @@ header{
 
 .body{
     color:#20272F;
+    background-color: #20272F;
 }
 
 
@@ -114,16 +115,12 @@ header{
     color:#E64E39;
 }
 
-.body{
-    background-color: #20272F;
-}
-
 .body-image{
     max-width: 500px;
 }
 
 .body-top{
-    padding: 3rem 0;
+    padding: 8rem 0;
     display: flex;
     justify-content: space-around;
 }
@@ -131,6 +128,7 @@ header{
 .body-top-text{
     color: white;
     padding-left: 2rem;
+    align-self: center;
 }
 
 .body-top-title{
