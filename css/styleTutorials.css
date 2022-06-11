@@ -95,7 +95,6 @@ body{
 
 .explanation{
     font-size: 60px;
-    /* vertical-align: text-top; */
     color: #47FFDA;
     align-self: flex-start;
     padding-top: 2rem;
@@ -108,7 +107,6 @@ body{
 
 .example{
     font-size: 60px;
-    /* vertical-align: text-bottom; */
     color: #47FFDA;
     align-self: flex-end;
     padding-bottom: 2.2rem;
