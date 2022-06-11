@@ -1,0 +1,98 @@
+
+body{
+    background-color: #20272F;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #20272F;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: 'Consolas';
+}
+
+.video-title{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.big-V{
+    color:#E64E39;
+    font-size: 200px;
+}
+
+.-ideos{
+    color:#47FFDA;
+    font-size: 60px;
+}
+
+.video-desc{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 2rem;
+}
+
+.explanation-example{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;;
+}
+
+.explanation{
+    font-size: 60px;
+    vertical-align: text-top;
+    color: #47FFDA;
+}
+
+.and{
+    font-size: 200px;
+    color: #E64E39;
+}
+
+.example{
+    font-size: 60px;
+    vertical-align: text-bottom;
+    color: #47FFDA;
+}
+
+.number{
+    font-size: 200px;
+    color: #E64E39;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.text{
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.article-subheading{
+    font-size: 40px;
+    color: #47FFDA;
+}
+
+.article-desc{
+    margin-top: 1rem;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.snippet{
+    max-width: 25rem;
+}
